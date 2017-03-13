@@ -1,0 +1,19 @@
+#header h1 {
+	color: #000000;
+	text-align: center;
+
+}
+
+#menu ul li{
+	
+	text-align: center;
+    display:inline-block;
+    background-color:#eee;
+    list-style-type:none;
+        
+    float: left;
+    padding:10px;
+    border-right:0px solid white;
+    position: relative;
+    
+}
