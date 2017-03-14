@@ -6,14 +6,41 @@
 
 #menu ul li{
 	
-	text-align: center;
-    display:inline-block;
-    background-color:#eee;
-    list-style-type:none;
+	text-align: 		center;
+    display:			inline-block;
+    background-color:	#eee;
+    overflow: 			hidden;
+    list-style-type:	none;
         
-    float: left;
-    padding:10px;
-    border-right:0px solid white;
-    position: relative;
-    
+    float: 				left;
+    padding:			10px;
+    border-right:		0px solid white;
+    position: 			relative;
+   
+}
+
+#menu li a{
+	
+	display: 			block;
+	text-align: 		center; 
+
+}
+
+#menu li a:hover{
+
+	background-color: 	#FFF;
+
+}
+#banner{
+
+	margin-top: 		60px;
+
+}
+
+#bannerimg{
+
+	text-align: 		center;
+	width: 				;
+	max-height:			420px;
+
 }
