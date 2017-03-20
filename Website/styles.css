@@ -1,46 +1,80 @@
+
+
+
+
+
+/*=====Header=====*/
 #header h1 {
 	color: #000000;
 	text-align: center;
 
 }
 
+/*=====Menu=====*/
+#menu{
+
+	text-align: center;
+
+}
+
 #menu ul li{
 	
-	text-align: 		center;
-    display:			inline-block;
-    background-color:	#eee;
-    overflow: 			hidden;
-    list-style-type:	none;
+    display: inline-block;
+    background-color: #eee;
+    overflow: hidden;
+    list-style-type: none;
         
-    float: 				left;
-    padding:			10px;
-    border-right:		0px solid white;
-    position: 			relative;
+    float: left;
+    padding: 10px;
+    position: relative;
    
 }
 
 #menu li a{
 	
-	display: 			block;
-	text-align: 		center; 
+	display: block;
+	text-align: center; 
 
 }
 
 #menu li a:hover{
 
-	background-color: 	#FFF;
+	background-color: #FFF;
 
 }
+
+/* =====Banner===== */
+
 #banner{
 
-	margin-top: 		60px;
+	margin-top: 60px;
+	text-align: center;
 
 }
 
-#bannerimg{
+#banner img{
 
-	text-align: 		center;
-	width: 				;
-	max-height:			420px;
+	
+	display: inline-block;
+	max-height:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+/*=====TheGame=====*/
+
+#thegame h2{
+
+	float: left;
+
+}
+
+#thegame p{
+
+	float: left;
+
+}
+#thegame img{
+
+	float: right;
 }
